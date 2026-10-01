@@ -29,7 +29,14 @@ yarn-error.*
 *.pem
 
 # local env files
+.env
+.env.*
+!.env.example
 .env*.local
 
 # typescript
 *.tsbuildinfo
+
+# dev local (agents/assistants)
+AGENTS.md
+.opencoderules
